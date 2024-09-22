@@ -6,6 +6,6 @@ public class Program {
     {
         SciCalc calc0 = new SciCalc();
         
-        System.out.println(calc0.Multiply(5, 4));
+        System.out.println(calc0.Multiply(5, 3));
     }
 }
