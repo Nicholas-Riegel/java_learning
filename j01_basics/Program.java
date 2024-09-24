@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class DataTypes01 {
+public class Program {
 
     public static void main(String[] args) {
 

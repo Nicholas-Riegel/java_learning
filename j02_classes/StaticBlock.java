@@ -37,7 +37,7 @@ class Mobile {
     
 }
 
-public class j02StaticBlock {
+public class StaticBlock {
 
     public static void main(String[] args) throws ClassNotFoundException {
         

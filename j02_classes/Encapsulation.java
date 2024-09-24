@@ -34,7 +34,7 @@ class Human
     
 }
 
-public class j03Encapsulation {
+public class Encapsulation {
 
     public static void main(String[] args) {
 

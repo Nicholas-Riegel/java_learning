@@ -10,7 +10,8 @@ abstract class Car
     }
 }
 
-class Ford extends Car // Ford now must implement the abstract method. This is also a "concrete" class, because it's not abstract.
+class Ford extends Car // Ford now must implement the abstract method. 
+//This is also a "concrete" class, because it's not abstract.
 {
     public void drive()
     {

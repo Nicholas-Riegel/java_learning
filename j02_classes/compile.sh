@@ -10,3 +10,5 @@ javac -d bin $java_files
 
 # Run the main program
 java -cp bin Program
+# java -cp bin Encapsulation
+# java -cp bin StaticBlock

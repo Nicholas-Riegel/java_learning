@@ -1,6 +1,12 @@
-# compile.sh
-# chmod +x compile.sh (this gives the file executable permission)
-# to compile and run: ./compile.sh
+#!/bin/bash
+# Create bin directory if it doesn't exist
 mkdir -p bin
-javac -d bin *.java **/*.java
+
+# Find all .java files in the root directory and subdirectories
+java_files=$(find . -name "*.java")
+
+# Compile all found .java files
+javac -d bin $java_files
+
+# Run the main program
 java -cp bin Program
