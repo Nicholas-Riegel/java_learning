@@ -35,6 +35,7 @@ class B implements A,Y
     }
     
 }
+
 public class Program {
 
     public static void main(String[] args)
