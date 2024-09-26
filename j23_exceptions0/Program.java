@@ -7,11 +7,13 @@ public class Program {
 
         // Need at try catch otherwise program will stop at the error.
         // This way it will always reach the end of the program.
+        
         try {
             
             int answer = 9/i;
 
             System.out.println(answer);
+
             System.out.println(array0[10]);
 
         } catch (ArithmeticException e) {
