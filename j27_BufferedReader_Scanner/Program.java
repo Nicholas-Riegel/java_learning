@@ -7,9 +7,9 @@ public class Program {
 
     public static void main(String[] args) throws IOException
     {
-        System.out.println("Enter a number.");
-
+        
         // old way
+        // System.out.println("Enter a number.");
         // InputStreamReader in = new InputStreamReader(System.in);
         // BufferedReader bf = new BufferedReader(in);
         // String input = bf.readLine();
@@ -18,6 +18,8 @@ public class Program {
         // bf.close();
 
         // new way
+        System.out.println("Enter anything.");
+        
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         sc.close();
