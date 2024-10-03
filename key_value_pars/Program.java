@@ -3,6 +3,7 @@ import java.util.Map;
 
 public class Program {
     public static void main(String[] args) {
+        
         // Create a HashMap to store key-value pairs
         Map<String, Integer> map = new HashMap<>();
 
