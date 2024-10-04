@@ -8,13 +8,15 @@
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Program {
 
     public static void main(String[] args)
     {
-        List<Object> numsArr = new ArrayList<>(Arrays.asList(1, 2, 3));
+        ArrayList<Object> numsArr = new ArrayList<>(
+                
+                Arrays.asList(1, 2, 3)
+            );
         
         //add to end
         numsArr.add("four");
@@ -38,7 +40,6 @@ public class Program {
         // set at index
         numsArr.set(1, "two");
         System.out.println(numsArr);
-        
 
     }
 }

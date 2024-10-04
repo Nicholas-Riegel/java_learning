@@ -1,4 +1,4 @@
-import java.util.Map;
+// import java.util.Map;
 // import java.util.HashMap;
 import java.util.Hashtable;
 
@@ -7,7 +7,7 @@ public class Program {
     public static void main(String[] args)
     {
         // Map<String, Integer> students = new HashMap<>();
-        Map<String, Integer> students = new Hashtable<>(); // synchronized
+        Hashtable<String, Integer> students = new Hashtable<>(); // synchronized
 
         students.put("John", 41);
         students.put("Jane", 32);
