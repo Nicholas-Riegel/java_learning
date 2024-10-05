@@ -26,8 +26,6 @@ class Student implements Comparable<Student>
             return -1;
         }
     }
-
-    
 }
 
 public class j37_sorting3 {

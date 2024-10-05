@@ -5,7 +5,7 @@ public class key_value_pairs {
     public static void main(String[] args) {
         
         // Create a HashMap to store key-value pairs
-        Map<String, Integer> map = new HashMap<>();
+        var map = new HashMap<String, Integer>();
 
         // Add key-value pairs to the map
         map.put("Apple", 3);
